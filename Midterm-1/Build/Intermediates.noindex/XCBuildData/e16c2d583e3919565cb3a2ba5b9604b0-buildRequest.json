@@ -1,0 +1,52 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "d365f920247739f3a99bf110ba4d8222e9eec5f45b96ba419305f0b2b03c7755"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/esthercheng/Desktop/CISP 440/Midterm 1/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/esthercheng/Desktop/CISP 440/Midterm 1/Build/Products",
+      "derivedDataPath" : "/Users/esthercheng/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/esthercheng/Library/Developer/Xcode/DerivedData/Midterm_1-gdqgomlaqpqsyleybvpurtvalkle/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/esthercheng/Library/Developer/Xcode/DerivedData/Midterm_1-gdqgomlaqpqsyleybvpurtvalkle/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/esthercheng/Desktop/CISP 440/Midterm 1/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
