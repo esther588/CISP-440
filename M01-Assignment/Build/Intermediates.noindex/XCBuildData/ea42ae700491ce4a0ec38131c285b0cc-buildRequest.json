@@ -1,0 +1,52 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "3605ffebb05e7dabb76f570ceef442142f0b1df9eaf70dc12cba674a7cf155be"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/esthercheng/Desktop/CISP 440/M01 Assignment/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/esthercheng/Desktop/CISP 440/M01 Assignment/Build/Products",
+      "derivedDataPath" : "/Users/esthercheng/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/esthercheng/Library/Developer/Xcode/DerivedData/M01_Assignment-boupvkitfaajkdfingwknhwwbwtg/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/esthercheng/Library/Developer/Xcode/DerivedData/M01_Assignment-boupvkitfaajkdfingwknhwwbwtg/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/esthercheng/Desktop/CISP 440/M01 Assignment/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
